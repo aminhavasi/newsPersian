@@ -1,0 +1,16 @@
+body {
+    font-family: helvetica;
+}
+
+.navbar {
+    color: white;
+    direction: rtl;
+}
+.navbar li {
+    display: inline;
+}
+.navbar li a:hover {
+    border-bottom: white 1px solid;
+    transform: translateX(100px);
+    transition: 0.3s;
+}
