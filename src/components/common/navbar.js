@@ -5,36 +5,36 @@ const Navbar = () => {
             className=" navbar-expand-md navbar navbar-dark bg-danger 
     "
         >
-            <a class="navbar-brand" href="#">
+            <a className="navbar-brand" href="/">
                 خبرگزاری
             </a>
             <button
-                class="navbar-toggler"
+                className="navbar-toggler"
                 type="button"
                 data-toggle="collapse"
                 data-target="#collapsibleNavbar"
             >
-                <span class="navbar-toggler-icon"></span>
+                <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
+            <div className="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul className="navbar-nav">
+                    <li className="nav-item">
+                        <a className="nav-link" href="/">
                             صفحه اصلی
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
+                    <li className="nav-item">
+                        <a className="nav-link" href="/">
                             سیاسی
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
+                    <li className="nav-item">
+                        <a className="nav-link" href="/">
                             ورزشی
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
+                    <li className="nav-item">
+                        <a className="nav-link" href="/">
                             اجتماعی
                         </a>
                     </li>

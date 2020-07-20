@@ -10,7 +10,22 @@ body {
     display: inline;
 }
 .navbar li a:hover {
-    border-bottom: white 1px solid;
-    transform: translateX(100px);
-    transition: 0.3s;
+    color: black !important;
+}
+
+.mainNews ul li {
+    list-style: none;
+    margin-bottom: 1px;
+
+    padding: 10px;
+}
+.mainNews ul li:hover {
+    list-style: none;
+
+    margin-bottom: 1px;
+}
+
+.mainNews ul li a {
+    color: black;
+    text-decoration: none;
 }
