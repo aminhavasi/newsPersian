@@ -6,11 +6,14 @@ const MainNews = () => {
                 <img
                     className="img-fluid"
                     src={require("./../../resource/main.JPG")}
+                    alt="main news"
                 />
-                <a className="lead">salam</a>
+                <a href="/" className="lead">
+                    salam
+                </a>
             </div>
             <div className="col-lg-4 col-sm-12 col-xs-12 col-md-12 ">
-                <ul>
+                <ul className="">
                     <li className="bg-light shadow">
                         <a href="/">news1</a>
                     </li>

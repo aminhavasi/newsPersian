@@ -24,6 +24,10 @@ body {
 
     margin-bottom: 1px;
 }
+.mainNews ul {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+}
 
 .mainNews ul li a {
     color: black;
