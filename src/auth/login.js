@@ -1,21 +1,11 @@
 import React from "react";
 import "../css/auth.css";
-const Register = () => {
+const Login = () => {
     return (
         <div className="register">
             <div className="container">
-                <h2 className="text-center">ثبت نام در سایت </h2>
+                <h2 className="text-center">صفحه ورود به سایت</h2>
                 <form>
-                    <div className="form-group">
-                        <label for="username">نام کاربری:</label>
-                        <input
-                            type="text"
-                            className="form-control"
-                            id="username"
-                            placeholder="نام کاربری خود را وارد کنید"
-                            name="username"
-                        />
-                    </div>
                     <div className="form-group">
                         <label for="email">ایمیل:</label>
                         <input
@@ -40,7 +30,7 @@ const Register = () => {
                     <br />
 
                     <button type="submit" className="btn btn-primary mt-2">
-                        Register
+                        Submit
                     </button>
                 </form>
             </div>
@@ -48,4 +38,4 @@ const Register = () => {
     );
 };
 
-export default Register;
+export default Login;
