@@ -4,6 +4,7 @@ import HomePage from "./components/homepage/homePage";
 import Register from "./auth/register";
 import Login from "../src/auth/login";
 import RecoveryPassword from "./auth/recoveryPassword";
+import Reset from "./auth/reset";
 function App() {
     return (
         <div className="app">
@@ -12,6 +13,7 @@ function App() {
                 <Route path="/register" component={Register} />
                 <Route path="/login" component={Login} />
                 <Route path="/recovery" component={RecoveryPassword} />
+                <Route path="/reset/:token" component={Reset} />
             </Switch>
         </div>
     );
