@@ -18,3 +18,14 @@ export const register = (state = {}, action) => {
             return state;
     }
 };
+
+export const recoveryPassword = (state = "", action) => {
+    switch (action.type) {
+        case "SET_RECOVERY":
+            return action.payload;
+        case "CLEAR_RECOVERY":
+            return action.payload;
+        default:
+            return state;
+    }
+};

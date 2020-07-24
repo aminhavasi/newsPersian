@@ -23,3 +23,9 @@ export const register = (event, type) => {
         await dispatch({ type: "SET_REGISTER", payload: person });
     };
 };
+
+export const recovery = (event) => {
+    return async (dispatch) => {
+        await dispatch({ type: "SET_RECOVERY", payload: event });
+    };
+};
